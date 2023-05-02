@@ -160,4 +160,13 @@ button#equal {
     background-color: #223323;
     color: #ffffff;
   }
-  
+  @media (max-width: 600px) {
+    .calculator {
+      width: 90%;
+    }
+    
+    .button {
+      height: 40px;
+      font-size: 1.2em;
+    }
+  }
